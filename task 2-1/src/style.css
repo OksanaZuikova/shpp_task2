@@ -1,0 +1,113 @@
+body {
+  position: relative;
+}
+.squere {
+  width: 100px;
+  height: 100px;
+  background: black;
+  margin: 10px;
+}
+.container {
+  display: flex;
+}
+button {
+  width: 100px;
+  height: 30px;
+  background: blue;
+  color: white;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.hidden {
+  visibility: hidden;
+}
+.buttons {
+  margin-bottom: 50px;
+}
+.yellow-squere {
+  margin: 30px;
+  width: 60px;
+  height: 60px;
+  background: yellow;
+}
+.red-squere {
+  margin: 30px;
+  width: 60px;
+  height: 60px;
+  background: red;
+}
+.rectangle {
+  background: green;
+  width: 50px;
+  height: 20px;
+  margin: 20px;
+}
+.coordinates {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.language {
+  position: fixed;
+  top: 50px;
+  right: 70px;
+}
+.location {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+}
+.input3 {
+  width: 200px;
+  height: 70px;
+  margin: 40px;
+  background: gray;
+}
+#up-button {
+  background: gray;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  cursor: pointer;
+}
+#outer {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  background: plum;
+}
+#inner {
+  width: 60px;
+  height: 60px;
+  background: blue;
+}
+.grey-squere {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: grey;
+  opacity: 0.5;
+}
+.stop-scroll {
+  overflow: hidden;
+}
+.file {
+  width: 270px;
+  height: 130px;
+  background: lightpink;
+  margin: 30px;
+  border: 1px solid salmon;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.file-over {
+  background-color: cadetblue;
+  border: 2px solid rgb(121, 121, 212);
+}
+.file-in {
+  background: rgb(148, 238, 178);
+  border: 1px solid rgb(69, 196, 133);
+}
