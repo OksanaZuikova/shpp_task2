@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid rgb(112, 15, 141);
+  padding: 15px 25px;
+}
+th {
+  border: 1px solid rgb(77, 5, 99);
+  color: firebrick;
+  padding: 15px 25px;
+  background-color: rgb(168, 213, 231);
+}
+button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+}
+#add {
+  margin-bottom: 20px;
+  background: blue;
+}
+.red-border {
+  border: 2px solid red;
+}
